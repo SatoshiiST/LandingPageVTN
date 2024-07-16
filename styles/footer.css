@@ -1,0 +1,23 @@
+footer {
+    background-color: var(--cor-footer);
+}
+
+#footer_itens {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8% 24px 8%;
+    align-items: center;
+}
+
+#cop {
+    
+    color: var(--cor-texto-2);
+    font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    #footer_itens {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

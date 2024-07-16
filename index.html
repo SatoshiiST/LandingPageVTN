@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>LandingPage Da Loja</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <!---<i class="fa-solid fa-shirt" id="barra_logo"> NOME DA LOJA</i>--->
+            <img src="src/imgs/Logo VTN.png" id="barra_logo_img" alt="">
+
+            <ul id="nav_lista">
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products">Nossos Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#store">Conheça A Loja</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre Nós</a>
+                </li>
+            </ul>
+
+            <button class="btn-pdrao"> Nosso Instagram</button>
+
+            <button id="btn-mob">
+                <i class ="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="menu_Mob">
+             <ul id="nav_lista_Mob">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#products">Nossos Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#store">Conheça A Loja</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about">Sobre Nós</a>
+                </li>
+            </ul>
+
+            <button class="btn-pdrao"> Nosso Instagram</button>
+        </div>
+    </header>
+
+    <main id="content">
+        <div id="forma"></div>
+        <section id="home">
+            <div id="info">
+                <h1 class="title"> VTN   <span>MENSWEAR</span></h1>
+
+                <p class="descricao">contém informações iniciais sobre a loja e o produto com que trabalha</p>
+
+                <div id="info_buttons">
+                    <a href="" class="btn-pdrao">Ver Nossos Produtos</a>
+
+                    <a href="tel:+55555555555" id="phone_button">
+                        <button class="btn-pdrao"> <i class="fa-solid fa-phone"></i> </button>
+                            Número Da Loja
+                    </a>
+                </div>
+                <div class="btns-redesoc">
+                    <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+    
+                    <a href=""> <i class="fa-brands fa-instagram"></i></a>
+    
+                    <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/imgs/IMAGEM EXEMPLO DA LOJA.png" alt="">
+            </div>
+        </section>
+
+        <section id="products">
+            <h2 class="title-section">Nossos Produtos</h2>
+            <h3 class="subt-section">Texto Para Os Produtos</h3>
+
+            <div id="produtos">
+
+                <div class="produto">
+                    <div class="produto-Simbolo">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <img src="src/imgs/ImgExProduto.png"  class="prod-img" alt="">
+
+                    <h3 class="prod-title">NOME PRODUTO</h3>
+                    <span class="prod-descricao">DESCRIÇÃO</span>
+                    <div class="prod-preco">
+                        <h4>PREÇO/CATEGORIA</h4>
+                    </div>
+                </div>
+
+
+                <div class="produto">
+                    <div class="produto-Simbolo">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <img src="src/imgs/ImgExProduto.png"  class="prod-img" alt="">
+
+                    <h3 class="prod-title">NOME PRODUTO</h3>
+                    <span class="prod-descricao">DESCRIÇÃO</span>
+                    <div class="prod-preco">
+                        <h4>PREÇO/CATEGORIA</h4>
+                    </div>
+                </div>
+
+
+                <div class="produto">
+                    <div class="produto-Simbolo">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <img src="src/imgs/ImgExProduto.png"  class="prod-img" alt="">
+
+                    <h3 class="prod-title">NOME PRODUTO</h3>
+                    <span class="prod-descricao">DESCRIÇÃO</span>
+                    <div class="prod-preco">
+                        <h4>PREÇO/CATEGORIA</h4>
+                    </div>
+                </div>
+
+
+                <div class="produto">
+                    <div class="produto-Simbolo">
+                        <i class="fa-solid fa-shirt"></i>
+                    </div>
+                    <img src="src/imgs/ImgExProduto.png"  class="prod-img" alt="">
+
+                    <h3 class="prod-title">NOME PRODUTO</h3>
+                    <span class="prod-descricao">DESCRIÇÃO</span>
+                    <div class="prod-preco">
+                        <h4>PREÇO/CATEGORIA</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="store">
+            <img src="src/imgs/ImgEx2.png" id="store_img" alt="">
+
+            <div id="store_cont">
+                <h2 class="title-section"> Conheça A Loja</h2>
+                <h3 class="subt-section">Como Nós Trabalhamos </h3>
+
+                <div id="avaliacoes">
+                    <div class="avaliacao">
+                        <img src="src/imgs/ImgClienteEx.png" class="avaliacao-avatar" alt="">
+
+                        <div class="avaliacao-cont">
+                            <p>
+                                 Cliente/Funcionario             
+                                 <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Texto de avaliação de um cliente/funcionario ou de descrição sobre a loja  "</p>
+                        </div>
+                    </div>
+
+                    <div class="avaliacao">
+                        <img src="src/imgs/ImgClienteEx.png" class="avaliacao-avatar" alt="">
+
+                        <div class="avaliacao-cont">
+                            <p>
+                                 Cliente/Funcionario               
+                                 <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Texto de avaliação de um cliente/funcionario ou de descrição sobre a loja  "</p>
+                        </div>
+                       
+                </div>
+                
+                <a href="https://www.facebook.com/VTNMenswear/reviews?locale=pt_BR" target="_blank" id="btn-avaliacao"><button class="btn-pdrao">Ver Mais Avaliações</button></a>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about_us">
+                <h2 class="title-section">SOBRE NÓS</h2>
+                <h3 class="subt-section">Conheça Mais Sobre A Loja</h3>
+                <h4 class="about_txt">Aqui na VTN nós...(Breve Texto Sobre O Trabalho) </h4>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="src/imgs/wave.svg" alt="">
+
+        <div id="footer_itens">
+            <span id="cop">&copy 2024 VTN Menswear</span>
+
+            <div class="btns-redesoc">
+                <a href=""> <i class="fa-brands fa-whatsapp"></i></a>
+
+                <a href=""> <i class="fa-brands fa-instagram"></i></a>
+
+                <a href=""> <i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
